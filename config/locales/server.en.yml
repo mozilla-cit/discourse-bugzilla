@@ -1,0 +1,3 @@
+en:
+  site_settings:
+    bugzilla_base: "base URL of where bug links should go to (including everything up to the bug id)"

@@ -6,6 +6,6 @@ Discourse.Dialect.inlineRegexp({
   emitter: function(matches) {
     var bug = matches[1]; // e.g. bug 12345
     var number = matches[2] // e.g. 12345
-    return ['a', {href: 'https://bugzilla.mozilla.org/show_bug.cgi?id=' + number}, bug];
+    return ['a', {href: Discourse.SiteSettings.bugzilla_base + number}, bug];
   }
 });

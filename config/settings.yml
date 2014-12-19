@@ -1,0 +1,4 @@
+plugins:
+  bugzilla_base:
+    default: "https://bugzilla.mozilla.org/show_bug.cgi?id="
+    client: true
