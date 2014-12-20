@@ -1,5 +1,5 @@
-# name: discourse-bugzilla-linker
-# about: Discourse plugin which automagically links things to Bugzilla
+# name: discourse-bugzilla
+# about: Discourse plugin to make it play nice with Bugzilla
 # version: 0.1
 # authors: Leo McArdle
 
